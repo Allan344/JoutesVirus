@@ -1,0 +1,129 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+    height: 150px;
+	right: 0;
+	background-color: #1a1a1a;
+    z-index: 15;
+}
+
+.fontfooter {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+}
+
+.mr{
+    margin-right: 8%;
+}
+
+.fontfooter2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+}
+
+#imagefond {
+    z-index: auto;
+    position: absolute;
+    right: 0;
+}
+
+#imagefond2 {
+    z-index: auto;
+    position: absolute;
+    background-color: #282828;
+}
+
+.carrenoir {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 850px;
+    margin-left: 25%;
+    background-color: #282828;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fontfooterinfo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #39ca74;
+}
+
+.imgparent {
+    position: absolute;
+    height: 850px;
+    width: 470px;
+    right: 0;
+    overflow: hidden;
+    background-color: grey;
+    
+}
+
+.imgenfant img{
+    transition: 1s;
+}
+
+.imgenfant:hover img{
+    transform: scale(1.2);
+}
+
+.imgparent2 {
+    position: absolute;
+    height: 850px;
+    width: 470px;
+    overflow: hidden;
+    background-color: grey;
+}
+.imgenfant2 img{
+    transition: 1s;
+}
+
+.imgenfant2:hover img{
+    transform: scale(1.2);
+}
+
+.textepresentation{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#header{
+    height: none;
+	border: none;
+	border-top: 1px dashed rgb(255, 255, 255);
+ }
+
+.equipe{
+    margin-left: 35px;
+    text-align: left;
+    margin-top: -35px;
+    position: relative;
+    padding: 0;
+}
+
+.photo {
+    width:75px;
+    clip-path:circle(45%);
+ }
+
+.membre {
+    margin-left: 15px;
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+  }
+
+  .a{
+      color:white;
+  }

@@ -1,0 +1,137 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+    height:150px;
+	right: 0;
+	background-color: #282828;
+    z-index: 15;
+}
+
+.fontfooter {
+              font-size: 18px;
+              font-weight: bold;
+              text-align: center;
+}
+
+.bio{
+    color: #228cbd;
+}
+
+.fontfooterinfo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texte{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.degrade{
+  background: linear-gradient(to right, #228cbd 40%, #39ca74 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#header{
+    height: none;
+	border: none;
+	border-top: 1px dashed rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+
+.info {
+    color: #39ca74;
+}
+
+.raff{
+    text-decoration:none;
+    color: white;
+}
+
+.fontfooter2 {
+              font-size: 16px;
+              font-weight: bold;
+              text-align: center;
+              color: aliceblue;
+}
+²
+
+.mr{
+    margin-right: 8%;
+}
+
+#imagefond {
+    z-index: auto;
+    position: absolute;
+    right: 0;
+}
+
+#imagefond2 {
+    z-index: auto;
+    position: absolute;
+}
+
+.tablevirusbio{
+    margin-top: 50px;
+    color: #39ca74;
+}
+
+.thannee{
+    width:50px;
+}
+
+.tablevirusinfo{
+    margin-top: 50px;
+    color:#228cbd;
+    max-width:90%;
+}
+.carrenoir {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 770px;
+    margin-left: 25%;
+    background-color: #131313;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgparent {
+    position: absolute;
+    height: 770px;
+    width: 470px;
+    right: 0;
+    overflow: hidden;
+}
+
+.imgenfant img{
+    transition: 1s;
+}
+
+.imgenfant:hover img{
+    transform: scale(1.2);
+}
+
+.imgparent2 {
+    position: absolute;
+    height: 770px;
+    width: 470px;
+    overflow: hidden;
+}
+.imgenfant2 img{
+    transition: 1s;
+}
+
+.imgenfant2:hover img{
+    transform: scale(1.2);
+}
+
+.droite{
+    text-decoration: none;
+}
